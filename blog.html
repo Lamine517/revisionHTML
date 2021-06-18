@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styleBlog.css">
+    <script src="./jquery/jquery.js"></script>
+    <!-- carrousel -->
+    <script src="./carrousel/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="./carrousel/assets/owl.carousel.min.css">
+    <title>Blog</title>
+</head>
+<body>
+    <div class="slider owl-carousel">
+        <div class="card">
+            <div class="img">
+                <img src="./img/front.jpg" alt="Desole pas d'images">
+            </div>
+            <div class="content">
+                <div class="title">Titre 1</div>
+                <div class="sub-title">Developpeur FRONT-END</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quo deleniti sequi atque placeat, eaque exercitationem illo porro sit, nam quas ullam architecto aspernatur nobis dolorem eius laudantium, necessitatibus omnis?</p>
+                <div class="btn">
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="img">
+                <img src="./img/font2.jfif" alt="Desole pas d'images">
+            </div>
+            <div class="content">
+                <div class="title">Titre 2</div>
+                <div class="sub-title">Graphic Designer</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quo deleniti sequi atque placeat, eaque exercitationem illo porro sit, nam quas ullam architecto aspernatur nobis dolorem eius laudantium, necessitatibus omnis?</p>
+                <div class="btn">
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="img">
+                <img src="./img/backemd.jpg" alt="Desole pas d'images">
+            </div>
+            <div class="content">
+                <div class="title">Titre 3</div>
+                <div class="sub-title">Developpeur BACK-END</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quo deleniti sequi atque placeat, eaque exercitationem illo porro sit, nam quas ullam architecto aspernatur nobis dolorem eius laudantium, necessitatibus omnis?</p>
+                <div class="btn">
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(".slider").owlCarousel({
+            loop:true,
+            autoplay:true,
+            autoplayTimeout:2000, //2000ms = 2s;
+            autoplayHoverPause:true,
+        });
+    </script>
+</body>
+</html>
